@@ -30,7 +30,7 @@
                 AT END
                    MOVE "Y" TO FILE-END
                 END-READ
-                DISPLAY "Your Name Is : " FILE-REC
+                DISPLAY "Hello : " FILE-REC
                 DISPLAY "STATUS :" FILE-STATUS
             END-PERFORM
             CLOSE HELLO-FILE
